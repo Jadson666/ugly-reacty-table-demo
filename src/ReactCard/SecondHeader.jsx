@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 export const SecHeader = ({ items, onClicksArray }) => {
   const [isShow, setIsShow] = useState(true)
