@@ -5,10 +5,10 @@ import './index.css'
 
 const menuItems = [
   'ALL',
-  <i class='fab fa-twitter'></i>,
-  <i class='fab fa-facebook-f'></i>,
-  <i class='fab fa-instagram'></i>,
-  <i class='fab fa-youtube'></i>
+  <i className='fab fa-twitter'></i>,
+  <i className='fab fa-facebook-f'></i>,
+  <i className='fab fa-instagram'></i>,
+  <i className='fab fa-youtube'></i>
 ]
 
 const Footer = () => {

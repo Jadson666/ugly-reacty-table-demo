@@ -16,7 +16,7 @@ export const ReactTable = ({ data }) => {
         <tbody>
           {data.map(({ name, count }) => {
             return (
-              <tr>
+              <tr key={name}>
                 <td>{name}</td>
                 <td>
                   <Percentage count={count} />
