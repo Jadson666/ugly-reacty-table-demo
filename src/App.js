@@ -1,5 +1,5 @@
 import './App.css'
-import ReactCard from './ReactCard'
+import ReactCard from 'ugly-reacty-table'
 import { terms } from './terms'
 
 function App() {
